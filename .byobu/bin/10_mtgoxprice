@@ -1,0 +1,5 @@
+#!/bin/bash
+
+price=$($GOPATH/bin/mtgoxprice)
+
+echo "Bitcoin: $price"
